@@ -7,4 +7,4 @@
 #library files
 *.a
 
-cmake-build-debug/
+/cmake-build-debug/
