@@ -6,7 +6,7 @@
 #    By: desausag <desausag@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/04 12:21:58 by desausag          #+#    #+#              #
-#    Updated: 2020/11/12 11:27:24 by desausag         ###   ########.fr        #
+#    Updated: 2020/11/12 13:53:48 by desausag         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -34,6 +34,7 @@ FUNCTIONS = ft_isalnum \
 				ft_strchr \
 				ft_strlcat \
 				ft_strlcpy \
+				ft_strnstr \
 
 OBJ = $(patsubst %,%.o,$(FUNCTIONS))
 SRC = $(patsubst %,%.c,$(FUNCTIONS))
