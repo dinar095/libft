@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/31 13:24:50 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/11 17:08:01 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/12 13:52:54 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,4 +35,7 @@ void		*ft_memchr(const void *arr, int c, size_t n);
 int			ft_memcmp(const void *s1, const void *s2, size_t n);
 char		*ft_strchr(const char *s, int c);
 size_t 		ft_strlcat(char *destination, const char *append, size_t size);
+size_t		ft_strlcpy(char *destination, const char *append, size_t size);
+char		*ft_strnstr(const char *large, const char *small, size_t len);
+char 		*ft_strdup(const char *str);
 #endif

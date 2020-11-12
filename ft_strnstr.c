@@ -1,33 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strcat.c                                        :+:      :+:    :+:   */
+/*   ft_strnstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/11 14:30:41 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/12 11:25:15 by desausag         ###   ########.fr       */
+/*   Created: 2020/11/12 12:00:03 by desausag          #+#    #+#             */
+/*   Updated: 2020/11/12 14:33:44 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-size_t	ft_strlcat(char *destination, const char *append, size_t size)
+char	*ft_strnstr(const char *large, const char *small, size_t len)
 {
-	size_t	dst_size;
 	size_t	n;
+	size_t	i;
 
-	dst_size = 0;
-	while (destination[dst_size] != '\0' && dst_size < size)
-		dst_size++;
-	if (dst_size == size)
-		return (size + ft_strlen(append));
-	n = dst_size;
-	while (n < size - 1 && append[n - dst_size] != '\0')
+	n = 0;
+	i = ft_strlen(small);
+	if (i == 0)
+		return ((char *)large);
+	while (large[n] != '\0' && (n + i <= len))
 	{
-		destination[n] = append[n - dst_size];
+		if (large[n] == small[0])
+		{
+			if (!ft_strncmp(large + n, small, i))
+				return ((char *)(large + n));
+		}
 		n++;
 	}
-	destination[n] = '\0';
-	return (dst_size + ft_strlen(append));
+	return (NULL);
 }
