@@ -1,0 +1,4 @@
+/private/var/folders/zz/zyxvpxvq6csfxvn_n003vdxr00yvgf/T/AppTranslocation/C9B67FE7-0C24-4206-A760-41A0992D8A33/d/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/desausag/Desktop/Libft
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /Users/desausag/Desktop/Libft/cmake-build-debug

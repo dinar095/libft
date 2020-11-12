@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/desausag/Desktop/Libft/ft_bzero.c
+libft.h
+/Users/desausag/Desktop/Libft/libft.h
+
+/Users/desausag/Desktop/Libft/libft.h
+stdlib.h
+-
+

@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Libft"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_memcmp">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_memcmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_memcmp"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_memcmp/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_memcmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_memcmp/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_memccpy">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_memccpy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_memccpy"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_memccpy/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_memccpy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_memccpy/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_memcpy">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_memcpy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_memcpy"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_memcpy/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_memcpy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_memcpy/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_bzero">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_bzero" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_bzero"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_bzero/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_bzero" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_bzero/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_atoi">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_atoi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_atoi"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_atoi/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_atoi" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_atoi/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isalnum">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isalnum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isalnum"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isalnum/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isalnum" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isalnum/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isascii">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isascii" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isascii"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isascii/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isascii" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isascii/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_strncmp">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_strncmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_strncmp"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_strncmp/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_strncmp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_strncmp/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_strrchr">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_strrchr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_strrchr"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_strrchr/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_strrchr" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_strrchr/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isprint">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isprint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isprint"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isprint/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isprint" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isprint/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isalpha">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isalpha" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isalpha"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isalpha/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isalpha" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isalpha/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_strlen">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_strlen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_strlen"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_strlen/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_strlen" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_strlen/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Libft">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/Libft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 Libft"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Libft/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/Libft" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 Libft/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isdigit">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isdigit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isdigit"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_isdigit/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_isdigit" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_isdigit/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_memset">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_memset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_memset"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_memset/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_memset" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_memset/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_toupper">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_toupper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_toupper"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ft_toupper/fast">
+				<Option output="/Users/desausag/Desktop/Libft/cmake-build-debug/ft_toupper" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/desausag/Desktop/Libft/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/desausag/Desktop/Libft/."/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/11.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 ft_toupper/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/Users/desausag/Desktop/Libft/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_atoi.c">
+			<Option target="ft_atoi"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_bzero.c">
+			<Option target="ft_bzero"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_isalnum.c">
+			<Option target="ft_isalnum"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_isalpha.c">
+			<Option target="ft_isalpha"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_isascii.c">
+			<Option target="ft_isascii"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_isdigit.c">
+			<Option target="Libft"/>
+			<Option target="ft_isdigit"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_isprint.c">
+			<Option target="ft_isprint"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_memccpy.c">
+			<Option target="ft_memccpy"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_memchr.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_memcmp.c">
+			<Option target="ft_memcmp"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_memcpy.c">
+			<Option target="ft_memcpy"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_memmove.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_memset.c">
+			<Option target="Libft"/>
+			<Option target="ft_memset"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_strchr.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_strlcat.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_strlen.c">
+			<Option target="ft_strlen"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_strncmp.c">
+			<Option target="ft_strncmp"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_strrchr.c">
+			<Option target="ft_strrchr"/>
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_tolower.c">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/ft_toupper.c">
+			<Option target="Libft"/>
+			<Option target="ft_toupper"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/libft.h">
+			<Option target="Libft"/>
+		</Unit>
+		<Unit filename="/Users/desausag/Desktop/Libft/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

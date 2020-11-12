@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/desausag/Desktop/Libft/ft_memcmp.c
+libft.h
+/Users/desausag/Desktop/Libft/libft.h
+stdio.h
+-
+string.h
+-
+
+/Users/desausag/Desktop/Libft/libft.h
+stdlib.h
+-
+
