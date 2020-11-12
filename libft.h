@@ -37,4 +37,5 @@ char		*ft_strchr(const char *s, int c);
 size_t 		ft_strlcat(char *destination, const char *append, size_t size);
 size_t		ft_strlcpy(char *destination, const char *append, size_t size);
 char		*ft_strnstr(const char *large, const char *small, size_t len);
+char 		*ft_strdup(const char *str);
 #endif
