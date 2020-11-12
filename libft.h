@@ -35,4 +35,5 @@ void		*ft_memchr(const void *arr, int c, size_t n);
 int			ft_memcmp(const void *s1, const void *s2, size_t n);
 char		*ft_strchr(const char *s, int c);
 size_t 		ft_strlcat(char *destination, const char *append, size_t size);
+size_t		ft_strlcpy(char *destination, const char *append, size_t size);
 #endif
