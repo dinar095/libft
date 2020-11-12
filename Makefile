@@ -41,9 +41,12 @@ SRC = $(patsubst %,%.c,$(FUNCTIONS))
 
 all: $(NAME)
 	@true
+
 libft.a:
 	CC -I $(CFLAGS) -c $(SRC)
 	ar rcs $(NAME) $(OBJ)
+
+$(NAME): libft.a
 
 clean:
 	rm -rf $(OBJ)
