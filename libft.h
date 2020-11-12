@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/31 13:24:50 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/12 13:52:54 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/12 15:27:48 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,4 +38,5 @@ size_t 		ft_strlcat(char *destination, const char *append, size_t size);
 size_t		ft_strlcpy(char *destination, const char *append, size_t size);
 char		*ft_strnstr(const char *large, const char *small, size_t len);
 char 		*ft_strdup(const char *str);
+void		*ft_calloc(size_t num, size_t size);
 #endif
