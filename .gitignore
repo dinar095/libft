@@ -1,0 +1,10 @@
+#Object files
+*.o
+
+#Executables
+*.out
+
+#library files
+*.a
+
+cmake-build-debug/
