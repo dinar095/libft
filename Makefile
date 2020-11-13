@@ -36,7 +36,8 @@ FUNCTIONS = ft_isalnum \
 				ft_strlcpy \
 				ft_strnstr \
 				ft_strdup \
-				ft_calloc
+				ft_calloc \
+				ft_substr
 
 OBJ = $(patsubst %,%.o,$(FUNCTIONS))
 SRC = $(patsubst %,%.c,$(FUNCTIONS))

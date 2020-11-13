@@ -39,4 +39,5 @@ size_t		ft_strlcpy(char *destination, const char *append, size_t size);
 char		*ft_strnstr(const char *large, const char *small, size_t len);
 char 		*ft_strdup(const char *str);
 void		*ft_calloc(size_t num, size_t size);
+char		*ft_substr(char const *s, unsigned int start, size_t len);
 #endif
