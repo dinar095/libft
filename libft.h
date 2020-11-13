@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/31 13:24:50 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/13 09:24:21 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/13 13:38:06 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,4 +41,5 @@ char 		*ft_strdup(const char *str);
 void		*ft_calloc(size_t num, size_t size);
 char		*ft_substr(char const *s, unsigned int start, size_t len);
 char		*ft_strjoin(char const *s1, char const *s2);
+char		*ft_strtrim(char const *s1, char const *set);
 #endif
