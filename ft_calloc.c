@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/12 16:01:26 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/12 16:20:02 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/13 14:45:19 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,11 @@
 
 void	*ft_calloc(size_t num, size_t size)
 {
-	unsigned	i;
 	void		*ptr;
 
-	i = num * size;
-	ptr = malloc(i);
-	if (ptr)
-		ft_memset(ptr, 0, i);
+	ptr = malloc(num * size);
+	if (ptr == 0)
+		return (NULL);
+	ft_bzero(ptr, num * size);
 	return (ptr);
 }

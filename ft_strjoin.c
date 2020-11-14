@@ -1,26 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strdup.c                                        :+:      :+:    :+:   */
+/*   ft_strjoin.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/12 15:21:21 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/12 15:51:41 by desausag         ###   ########.fr       */
+/*   Created: 2020/11/13 09:38:48 by desausag          #+#    #+#             */
+/*   Updated: 2020/11/13 09:56:40 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strdup(const char *str)
+char	*ft_strjoin(char const *s1, char const *s2)
 {
-	int		i;
-	char	*p;
+	char	*ret;
+	size_t	i;
 
-	i = ft_strlen(str) + 1;
-	p = (char*)malloc(sizeof(char) * (i));
-	if (p == NULL)
+	i = ft_strlen(s1) + ft_strlen(s2) + 1;
+	ret = ft_calloc(i, sizeof(char));
+	if (!ret)
 		return (NULL);
-	ft_memcpy(p, str, i);
-	return (p);
+	ft_strlcat(ret, s1, i);
+	ft_strlcat(ret, s2, i);
+	return (ret);
 }
