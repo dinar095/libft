@@ -40,7 +40,8 @@ FUNCTIONS = ft_isalnum \
 				ft_substr \
 				ft_strjoin \
 				ft_strtrim \
-				ft_itoa
+				ft_itoa \
+				ft_putchar_fd
 
 OBJ = $(patsubst %,%.o,$(FUNCTIONS))
 SRC = $(patsubst %,%.c,$(FUNCTIONS))
