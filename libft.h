@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/10/31 13:24:50 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/14 18:52:55 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/14 18:55:15 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,5 @@ char		*ft_strtrim(char const *s1, char const *set);
 char		*ft_itoa(int n);
 void		ft_putchar_fd(char c, int fd);
 void		ft_putstr_fd(char *s, int fd);
+void		ft_putendl_fd(char *s, int fd);
 #endif
