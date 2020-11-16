@@ -6,7 +6,7 @@
 #    By: desausag <desausag@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/04 12:21:58 by desausag          #+#    #+#              #
-#    Updated: 2020/11/14 19:01:04 by desausag         ###   ########.fr        #
+#    Updated: 2020/11/15 11:21:45 by desausag         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -46,6 +46,7 @@ FUNCTIONS = ft_isalnum \
 				ft_putendl_fd \
 				ft_putnbr_fd \
 				ft_strmapi \
+				ft_split
 
 
 OBJ = $(patsubst %,%.o,$(FUNCTIONS))
