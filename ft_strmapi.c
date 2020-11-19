@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/15 11:20:00 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/15 11:52:29 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/19 12:17:08 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,10 +19,11 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	int		i;
 
 	i = 0;
-	len = ft_strlen(s);
 	if (!s)
 		return (NULL);
-	buf = ft_calloc(len, sizeof(char));
+	len = ft_strlen(s);
+	if (!(buf = ft_calloc(len + 1, sizeof(char))))
+		return (NULL);
 	while (i < len)
 	{
 		buf[i] = (*f)(i, s[i]);

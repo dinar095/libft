@@ -1,29 +1,26 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*   ft_lstsize.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/13 09:38:48 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/19 12:17:08 by desausag         ###   ########.fr       */
+/*   Created: 2020/11/18 09:12:41 by desausag          #+#    #+#             */
+/*   Updated: 2020/11/18 10:20:26 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+int		ft_lstsize(t_list *lst)
 {
-	char	*ret;
-	size_t	i;
+	int		i;
 
-	if (!s1 || !s2)
-		return (NULL);
-	i = ft_strlen(s1) + ft_strlen(s2) + 1;
-	ret = ft_calloc(i, sizeof(char));
-	if (!ret)
-		return (NULL);
-	ft_strlcat(ret, s1, i);
-	ft_strlcat(ret, s2, i);
-	return (ret);
+	i = 0;
+	while (lst)
+	{
+		lst = lst->next;
+		i++;
+	}
+	return (i);
 }

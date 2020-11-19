@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/14 18:52:11 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/14 18:55:15 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/19 12:17:08 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
+	if (!s || fd == -1)
+		return ;
 	while (*s)
 		ft_putchar_fd(*s++, fd);
 }
