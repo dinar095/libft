@@ -1,29 +1,33 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*   ft_strmapi.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/13 09:38:48 by desausag          #+#    #+#             */
+/*   Created: 2020/11/15 11:20:00 by desausag          #+#    #+#             */
 /*   Updated: 2020/11/19 12:17:08 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {
-	char	*ret;
-	size_t	i;
+	char	*buf;
+	int		len;
+	int		i;
 
-	if (!s1 || !s2)
+	i = 0;
+	if (!s)
 		return (NULL);
-	i = ft_strlen(s1) + ft_strlen(s2) + 1;
-	ret = ft_calloc(i, sizeof(char));
-	if (!ret)
+	len = ft_strlen(s);
+	if (!(buf = ft_calloc(len + 1, sizeof(char))))
 		return (NULL);
-	ft_strlcat(ret, s1, i);
-	ft_strlcat(ret, s2, i);
-	return (ret);
+	while (i < len)
+	{
+		buf[i] = (*f)(i, s[i]);
+		i++;
+	}
+	return (buf);
 }

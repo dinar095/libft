@@ -1,29 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strjoin.c                                       :+:      :+:    :+:   */
+/*   ft_putnbr_fd.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2020/11/13 09:38:48 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/19 12:17:08 by desausag         ###   ########.fr       */
+/*   Created: 2020/11/14 19:31:09 by desausag          #+#    #+#             */
+/*   Updated: 2020/11/14 20:21:42 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strjoin(char const *s1, char const *s2)
+void	ft_putnbr_fd(int n, int fd)
 {
-	char	*ret;
-	size_t	i;
+	int i;
 
-	if (!s1 || !s2)
-		return (NULL);
-	i = ft_strlen(s1) + ft_strlen(s2) + 1;
-	ret = ft_calloc(i, sizeof(char));
-	if (!ret)
-		return (NULL);
-	ft_strlcat(ret, s1, i);
-	ft_strlcat(ret, s2, i);
-	return (ret);
+	i = n % 10 < 0 ? -1 : 1;
+	if (fd == -1)
+		return ;
+	if (n / 10)
+		ft_putnbr_fd(n / 10, fd);
+	else if (n < 0)
+		ft_putchar_fd('-', fd);
+	ft_putchar_fd((n % 10) * i + '0', fd);
 }

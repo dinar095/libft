@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/14 14:32:23 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/14 18:33:36 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/19 12:17:08 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@ int		arr_size(int n)
 	int q;
 
 	q = 0;
+	if (n == 0)
+		return (1);
 	if (n < 0)
 		q++;
 	while (n)
