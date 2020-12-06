@@ -6,7 +6,7 @@
 /*   By: desausag <desausag@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/14 14:32:23 by desausag          #+#    #+#             */
-/*   Updated: 2020/11/19 14:06:19 by desausag         ###   ########.fr       */
+/*   Updated: 2020/11/20 11:39:18 by desausag         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ char	*ft_itoa(int n)
 
 	i = arr_size(n);
 	minus = 1;
-	z = (char *)malloc(sizeof(char) * i + 1);
+	z = (char *)malloc(sizeof(char) * (i + 1));
 	z[i--] = '\0';
 	z[0] = '0';
 	if (n < 0)

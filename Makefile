@@ -6,7 +6,7 @@
 #    By: desausag <desausag@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/11/04 12:21:58 by desausag          #+#    #+#              #
-#    Updated: 2020/11/18 13:05:09 by desausag         ###   ########.fr        #
+#    Updated: 2020/11/20 11:39:18 by desausag         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -39,7 +39,7 @@ all: $(NAME)
 obj_f: $(SRC) libft.h
 	gcc $(CFLAGS) -c $(SRC)
 
-$(NAME): $(OBJ)
+$(NAME): $(OBJ) libft.h
 	ar rc $(NAME) $(OBJ)
 	ranlib $(NAME)
 
